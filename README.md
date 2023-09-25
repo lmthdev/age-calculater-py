@@ -1,8 +1,7 @@
-# Lisans
-Kodu güncelleyerek kullanabilirsiniz, fakat direk kopyala/yapıştır biçiminde kullanmak yasaktır.
-# Önemli!!
-Eğer yıl "2023" değil ise 13. Satırıdaki 2023 yılı ile kullandığınız yılı yazın örneğin;     
-sonuc = 2024 - int(yıl)
-# İçerik
-Doğum tarihi ve adını girdiğiniz kişinin yaşını hesaplar ve sonucu sunar.
+# Licance
+You can use the code by updating it, but direct copy/paste use is prohibited.
+# Year
+Year is obtained with the "time" module, do not touch it, the code obtains the year with time.strftime("%Y").
+# Content
+It calculates the age of the person whose birth date and name you enter and presents the result.
 
