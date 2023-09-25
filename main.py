@@ -1,20 +1,20 @@
 import time
-print("Program Başlatılıyor...")
+print("Starting the Program...")
 print(" ")
 time.sleep(4)
 while "true":
-    
-    ad = input("Adınız ? : \n")
+    mainyear = time.strftime("%Y")
+    ad = input("Your name ? : \n")
     print(" ")
     time.sleep(1)
-    yıl = int(input ("Doğum tarihiniz ? : \n"))
+    yıl = int(input ("Your birth year ? : \n"))
     print(" ")
-    print("Lüten bekleyiniz, hesaplanıyor...")
-    sonuc = 2023 - int(yıl)
+    print("Please wait, calculating...")
+    sonuc = int(mainyear) - int(yıl)
     
     time.sleep(3)
     print(" ")
-    print(ad + ', yaşın ' + '"' + str(sonuc) + '"')
+    print(ad + ', your age is ' + '"' + str(sonuc) + '"')
     print(" ")
     time.sleep(2)
     print("--------------------------")
