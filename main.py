@@ -30,7 +30,7 @@ Your Age: {age}
 
 # Ana uygulama penceresini oluştur
 app = tk.Tk()
-app.title(Age Calculation Application")
+app.title("Age Calculation Application")
 
 # Giriş etiketi ve alanı
 label = tk.Label(app, text='''
